@@ -1,0 +1,58 @@
+# Рабочие файлы обмена и данные базы
+*.dbf
+*.DBF
+*.dbt
+*.DBT
+*.fpt
+*.FPT
+*.1CD
+*.1cd
+*.dt
+*.DT
+
+# Бинарные обработки и конфигурации требуют отдельной проверки
+*.epf
+*.EPF
+*.erf
+*.ERF
+*.cf
+*.CF
+*.cfu
+*.CFU
+
+# Локальные данные и реквизиты доступа
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+*.bak
+*.tmp
+*.zip
+upload/
+output/
+data/
+private/
+secrets/
+temp/
+
+# Скриншоты и документы с данными клиентов
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+
+# Локальные настройки редакторов и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/
